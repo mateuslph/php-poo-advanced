@@ -2,7 +2,7 @@
 
 namespace Alura\Banco\Modelo;  // o namespace pode-se colocar qualquer nome, mas eh interessante constar as pastas do projeto
 
-class CPF
+final class CPF  // "final" significa que a partir desa classe nao sera possivel fazer herancas
 {
     private string $numero;
 
